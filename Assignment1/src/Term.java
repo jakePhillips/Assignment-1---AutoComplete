@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * The Term class
+ */
 public class Term {
 	private double weight;
 	private String word;
@@ -9,12 +12,15 @@ public class Term {
 		return "StoreWord [weight=" + weight + ", word=" + word + "]";
 	}
 	
+	/**
+	 * The constructor for the Term class
+	 */
 	public Term(Double weights, String term) {
 		// Here is your error lol :3
 		this.weight = weights;
 		this.word = term;
 	}
-
+// GETTERS AND SETTERS //
 	public double getWeight() {
 		return weight;
 	}
